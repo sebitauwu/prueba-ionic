@@ -25,6 +25,10 @@ const routes: Routes = [
     path: 'olvide',
     loadChildren: () => import('./page/olvide/olvide.module').then( m => m.OlvidePageModule)
   },
+  {
+    path: 'ultimo',
+    loadChildren: () => import('./page/ultimo/ultimo.module').then( m => m.UltimoPageModule)
+  },
 ];
 
 @NgModule({
